@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 10 px;
+    padding: 20 px;
+    font-family: Verdana, san-serif;
+    color: #4F545F;
+}
+.videoForm {
+    margin: 20px 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.logoContainer {
+    text-align: center; 
+    padding: 25px 0;
+    font-weight: 700; 
+}
+
+.logo{
+     color: white;
+     background: #e3051b;
+     border: #cccccc 1px solid;
+     border-radius: 10px;
+     padding: 8px 15px;
+}
+
+button {
+    border: 0;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    background-color: #00BFFF;
+}
+
+li {
+    border: 1px solid ;
+    padding: 10px;
+    margin: 10px;
+  
+}
+
+ul{
+    list-style: none;
+    padding: 10px;
+}
+
+div{
+    width:30em; 
+    border: 1px solid black;
+    padding: 10px;
+    margin:10px;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.crud{
+    display: flex;
+    flex-direction: row;
+}
+

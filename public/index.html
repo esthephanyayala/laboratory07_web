@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang= "es">
+    <head>
+            <meta charset="utl-8">
+            <meta name="viewport" content="width=device-width">
+         <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+            <h1>List of Blogs</h1>
+            <ul id="blogLists"> 
+                    
+            </ul>
+            <section class = "crud"> 
+            
+                
+                 <fieldset id ="post">
+                <legend> New post</legend> </legend>
+                   <label for = "title"> Title: </label>
+                        <input type="text" id="title"> 
+                       <label for ="content"> Content: </label>
+                        <textarea id="content"> </textarea> 
+                        <label for= "author"> Author: </label>
+                        <input type="text" id="author"> 
+                        <label>Publish Date: </label>
+                        <input type="text" id="publishDate">
+                        <button id="newPost" type="submit"> newPost </button>
+                        <p id= errorpost></p>
+                 </fieldset>
+                      
+             
+            
+                
+                    <fieldset id = "delete">
+                        <legend>Delete Post</legend>
+                        <label for="idDelete"> Id: </label>
+                        <input id="idDelete" type="text">
+                        <button id="deletebtn" type="submit"> Delete </button>
+                        <p id= errordelete></p>
+                    </fieldset>
+                
+            
+                    <fieldset id = "update">
+                        <legend>Update Post</legend>
+                            <label for="idUpdate"> Id: </label>
+                            <input type="text" id="idUpdate">  
+                            <label for="titleUpdate"> Title: </label> 
+                            <input type="text" id="titleUpdate"> 
+                            <span><label for="contentUpdate"> Content: </label></span>
+                            <textarea id="contentUpdate"> </textarea> 
+                            <label for="authorUpdate"> Author: </label>
+                            <input type="text" id="authorUpdate"> 
+                            <label for="publishDateUpdate"> Publish Date: </label>
+                            <input type="text" id="publishDateUpdate">
+                            <button id="updatebtn" type="submit"> Update </button> 
+                            <p id= errorupdate></p>
+                    </fieldset>
+                
+            </section>
+            
+            
+            <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+    <script src="jss/script.js"></script>
+    </body>
+</html>
